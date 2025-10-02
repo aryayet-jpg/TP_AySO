@@ -1,0 +1,83 @@
+sudo su
+ls
+ssh-keygen -t ed25519
+cat $HOME/.ssh/*.pub
+mkdir repogit
+cd repogit/
+git clone git@github.com:aryayet-jpg/TP_AySO.git
+ls 
+cd 
+cd -
+cd TP
+cd TP_AySO/
+ls
+cat /etc/os-release 
+grep "model name"/proc/cpuinfo | head -n1 >> datos_usuario.txt 
+ls
+cat datos_usuario.txt 
+cat /proc/cpuinfo 
+grep "model name"/proc/cpuinfo | head -n1 
+grep "model name" /proc/cpuinfo | head -n1 
+grep "model name" /proc/cpuinfo | head -n1 >> datos_usuario.txt 
+cat /proc/cpuinfo 
+cat datos_usuario.txt 
+nano
+nano datos_usuario.txt 
+cat datos_usuario.txt 
+ls
+rm datos_usuario.txt 
+echo "Usuario=$(whoami)" > datos_usuario.txt
+cat datos_usuario.txt 
+grep "model name" /proc/cpuinfo | head -n1 >> datos_usuario.txt 
+cat datos_usuario.txt 
+git add . 
+git commit -m "feat: Anadiendo informacion de CPU"
+git config --global user.email "aryayet@gmail.com"
+git config --globar user.name "aryayet-jpg"
+git config --global user.name "aryayet-jpg"
+git commit -m "feat: Anadiendo informacion de CPU"
+git push 
+cat <<EOF>> README.md
+Alumno: Ariadna Tronconi
+Division: 211
+Turno: Tarde
+EOF
+
+cat README.md 
+git add README.md 
+git commit -m "ADD: anadiendo Readme"
+git push
+mkdir materia1/uni1
+mkdir -p materia1/uni1
+ls
+ls materia
+ls materia1
+mkdir -p materia1/uni2
+mkdir -p materia1/uni3
+mkdir -p materia2/uni1
+mkdir -p materia2/uni2
+mkdir -p materia2/uni3
+ls
+tree
+rm -rf materia*
+ls
+cd ..
+ls
+cd .. 
+ls
+mkdir -p ~/materia1/uni{1,2,3
+ls
+mkdir -p ~/materia1/uni{1,2,3} ~/materia2/uni{1,2,3}
+ls
+cd repogit/TP_AySO/
+nano script_dir.sh
+cat script_dir.sh 
+chmod +x script_dir.sh 
+ls -la
+git add . 
+git commit -m "ADD: Anadiendo script"
+git push
+env
+history -a
+history 
+history -a $HOME/.bash_history
